@@ -1,0 +1,39 @@
+:root {
+    --color-1: #F2F2FF;
+    --color-2: #865CF3;
+    --color-3: #855BF1;
+    --color-4: #ff4aa2;
+    --color-5: rgb(138, 138, 138);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: var(--color-4);
+}
+
+button,.submit {
+    width: 150px;
+    height: 40px;
+    border-radius: 40px;
+    border:0;
+    font-size: 14px;
+    background-color: var(--color-4);
+    color:white;
+}
+
+.submit:hover, button:hover{
+    background-color: var(--color-3);
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+.form {
+    border: 0;
+    outline:0;
+}
